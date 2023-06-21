@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissors</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="gradient">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" />
+            <img src="images/logo-seperator.png" alt="Logo" />
+            <img src="images/SCISSOR.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link onPage" href="">My URLs</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="">Features</a>
+                <a class="angle-icon" href="#"
+                  ><i class="fa fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Analytics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">FAQs</a>
+              </li>
+            </ul>
+
+            <div class="buttons">
+              <a class="login-btn myButton" href="">Log in</a>
+              <a class="try-btn myButton" href="">Try for free</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- HERO -->
+      <section class="hero container scroll-animation">
+        <h1 class="scroll-animation">
+          Optimize Your Online Experience with Our Advanced
+          <span class="onPage">URL Shortening</span>
+          Solution
+          <img src="images/hero-image.png" class="hero-image" />
+        </h1>
+        <p class="scroll-animation">
+          Personalize your shortened URLs to align with your brand identity.
+          Utilize custom slugs, branded links, and domain customization options
+          to reinforce your brand presence and enhance user engagement.
+        </p>
+        <div class="buttons">
+          <div class="sign-btn scroll-animation myButton" href="">Sign Up</div>
+          <div class="learn-btn scroll-animation myButton" href="">
+            Learn more
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- About Images -->
+    <div class="about scroll-animation">
+      <img
+        src="images/about-image-background.png"
+        class="about-image-background"
+      />
+      <div class="about-image-top">
+        <div class="about-vector">
+          <ion-icon
+            name="link-outline"
+            class="about-vector-img scroll-animation scroll-animation-left"
+          ></ion-icon>
+          <ion-icon
+            name="link-outline"
+            class="about-vector-img scroll-animation scroll-animation-left"
+          ></ion-icon>
+
+          <ion-icon
+            name="link-outline"
+            class="about-vector-img scroll-animation scroll-animation-left"
+          ></ion-icon>
+          <img
+            src="images/arrow.png"
+            class="about-arrow-img scroll-animation scroll-animation-left"
+          />
+
+          <ion-icon
+            name="link-outline"
+            class="about-vector-img scroll-animation scroll-animation-right"
+          ></ion-icon>
+          <p class="scroll-animation">
+            Seamlessly transform your long URLs into <b>concise</b> and
+            <b>shareable links</b> with just few clicks.
+          </p>
+        </div>
+      </div>
+
+      <img
+        src="images/about-image-background2.png"
+        class="about-image-background2"
+      />
+      <img src="images/about-image-top2.png" class="about-image-top2" />
+    </div>
+
+    <div class="about-details scroll-animation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="scroll-animation scroll-animation-left">
+              One Stop. <br />
+              Four <span class="onPage">Possibilities</span>.
+            </h2>
+          </div>
+          <div class="col-md-2 col-3 scroll-animation">
+            <h6>3M</h6>
+            <p>Active users</p>
+          </div>
+          <div class="col-md-2 col-3 scroll-animation">
+            <h6>60M</h6>
+            <p>Links & QR <br />codes created</p>
+          </div>
+          <div class="col-md-2 col-3 scroll-animation">
+            <h6>1B</h6>
+            <p>Clicked & Scanned connections</p>
+          </div>
+          <div class="col-md-2 col-3 scroll-animation">
+            <h6>300k</h6>
+            <p>App Integrations</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY -->
+    <div class="why scroll-animation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mx-xs-auto">
+            <h2 class="scroll-animation scroll-animation-left">
+              <img src="images/why-line.png" /> Why choose
+              <span class="onPage">Scissors</span>
+            </h2>
+            <p class="p scroll-animation scroll-animation-left">
+              Scissors is the hub of everything that has to do with your link
+              management. We shorten your URLs, allow you creating custom ones
+              for your personal, business, event usage. Our swift QR code
+              creation, management and usage tracking with advance analytics for
+              all of these is second to none.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 scroll-animation">
+            <div class="background-circle">
+              <img src="images/why-url.png" class="why-vector-url" />
+              <img src="images/why-url-line.png" class="why-vector-line" />
+            </div>
+
+            <h6 class="scroll-animation">URL Shortening</h6>
+            <p class="scroll-animation">
+              Scissor allows you to shorten URLs of your business, events.
+              Shorten your URL at scale, URL redirects.
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12 scroll-animation">
+            <div class="background-circle">
+              <img src="images/why-custom.png" class="why-vector-custom" />
+              <img src="images/why-custom-pen.png" class="why-vector-pen" />
+            </div>
+
+            <h6 class="scroll-animation">Custom URLs</h6>
+            <p class="scroll-animation">
+              With Scissor, you can create custom URLs, with the length you
+              want! A solution for socials and businesses.
+            </p>
+          </div>
+
+          <div class="col-md-5"></div>
+          <div class="col-md-3 scroll-animation">
+            <div class="background-circle">
+              <img src="images/qr-code-1.png" class="why-vector-code-1" />
+              <img src="images/qr-code-2.png" class="why-vector-code-2" />
+              <img src="images/qr-code-2.png" class="why-vector-code-3" />
+              <img src="images/qr-code-1.png" class="why-vector-code-4" />
+            </div>
+            <h6 class="scroll-animation">QR Codes</h6>
+            <p class="scroll-animation">
+              Generate QR codes to your business, events. Bring your audience
+              and customers to your doorstep with this scan and go solution.
+            </p>
+          </div>
+          <div class="col-md-3 scroll-animation">
+            <div class="background-circle">
+              <img src="images/why-analytics.png" class="why-vector-custom" />
+            </div>
+            <h6 class="scroll-animation">Data Analytics</h6>
+            <p class="scroll-animation">
+              Receive data on the usage of either your shortened URL, custom
+              URLs or generated QR codes. Embedded to monitor progress.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="pricing scroll-animation">
+      <div class="container">
+        <h2>
+          <img src="images/why-line.png" /> A
+          <span class="onPage">price perfect</span> for your needs.
+        </h2>
+        <p>
+          From catering for your personal, business, event, socials needs, you
+          can be rest assured we have you in mind in our pricing.
+        </p>
+        <div
+          class="cards d-flex align-items-center justify-content-center"
+          style="gap: 0"
+        >
+          <!-- Basic Card -->
+          <div class="card scroll-animation" style="width: 21rem">
+            <div class="card-body">
+              <h6 class="card-title">Basic</h6>
+              <h4 class="card-text">Free</h4>
+              <h5>Free plan for all users</h5>
+              <ul class="no-bullet">
+                <li>
+                  <img src="images/check-circle.svg" alt="" />
+                  Unlimited URL Shortening
+                </li>
+
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Basic Link
+                  Analytics
+                </li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" />
+                  Customizable Short Links
+                </li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Standard Support
+                </li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Ad-supported
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Professional Card -->
+          <div class="card" style="width: 21rem">
+            <div class="card-body" style="height: 100%">
+              <h6 class="card-title">Professional</h6>
+              <h4 class="card-text">$15/month</h4>
+              <h5>Ideal for business creators</h5>
+              <ul class="no-bullet">
+                <li>
+                  <img src="images/check-circle-white.svg" alt="" />
+                  Enhanced Link Analytics
+                </li>
+                <li>
+                  <img src="images/check-circle-white.svg" alt="" />
+                  Custom Branded Domains
+                </li>
+                <li>
+                  <img src="images/check-circle-white.svg" alt="" />
+                  Advanced Link Customization
+                </li>
+                <li>
+                  <img src="images/check-circle-white.svg" alt="" />
+                  Priority Support
+                </li>
+                <li>
+                  <img src="images/check-circle-white.svg" alt="" />
+                  Ad-free Experience
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Teams Card -->
+          <div class="card scroll-animation" style="width: 21rem">
+            <div class="card-body">
+              <h6 class="card-title">Teams</h6>
+              <h4 class="card-text">$25/month</h4>
+              <h5>Share with up to 10 users</h5>
+              <ul class="no-bullet">
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Team
+                  Collaboration
+                </li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> User Roles and
+                  Permissions
+                </li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Enhanced Security
+                </li>
+                <li><img src="images/check-circle.svg" alt="" /> API Access</li>
+                <li>
+                  <img src="images/check-circle.svg" alt="" /> Dedicated Account
+                  Manager
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <a
+            class="custom-pricing scroll-animation scroll-animation-left myButton2"
+            href=""
+            >Get Custom Pricing</a
+          >
+          <a
+            class="select-pricing scroll-animation scroll-animation-right myButton"
+            href=""
+            >Select Pricing</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Trimmer -->
+
+    <div class="trimmer scroll-animation">
+      <img
+        src="images/get-started-vector-2.png"
+        class="get-started-vector scroll-animation scroll-animation-left"
+        style="left: 0%; top: 0; height: 550px; width: 400px"
+      />
+      <img
+        src="images/get-started-vector-3.png"
+        class="get-started-vector-3 scroll-animation scroll-animation-left"
+        style="left: 0%; top: 0; height: 550px; width: 520px"
+      />
+      <div class="container">
+        <div class="card scroll-animation">
+          <input placeholder="Paste URL here..." class="scroll-animation" />
+          <div class="d-flex align-items-center gap-x-1">
+            <select class="me-3 scroll-animation">
+              <option value="">Choose Domain</option>
+            </select>
+            <input placeholder="Type Alias here" class="scroll-animation" />
+          </div>
+          <a class="trim scroll-animation" href="">Trim URL</a>
+          <p class="scroll-animation">
+            By clicking TrimURL, I agree to the <b>Terms of Service</b>,
+            <b>Privacy Policy </b>and Use of Cookies.
+          </p>
+        </div>
+      </div>
+      <img
+        src="images/get-started-vector-4.png"
+        class="get-started-vector-4 scroll-animation scroll-animation-right"
+        style="bottom: -10%; width: 500px; height: 350px"
+      />
+      <img
+        src="images/get-started-vector-5.png"
+        class="get-started-vector-4 scroll-animation scroll-animation-right"
+        style="bottom: -5%; width: 300px; height: 200px"
+      />
+    </div>
+
+    <!-- FAQs -->
+    <div class="faqs scroll-animation">
+      <div class="container">
+        <h2><img src="images/why-line.png" /> FAQs</h2>
+        <img
+          src="images/faq-vector-1.png"
+          class="faq-vector-1 scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/faq-vector-2.png"
+          class="faq-vector-2 scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/faq-vector-3.png"
+          class="faq-vector-3 scroll-animation scroll-animation-left"
+        />
+        <div class="faqWrapper">
+          <div class="accordion" id="faqAccordion">
+            <!-- Question 1 -->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h6>How does URL shortening work?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  URL shortening works by taking a long URL and creating a
+                  shorter, condensed version that redirects to the original URL.
+                  When a user clicks on the shortened link, they are redirected
+                  to the intended destination.
+                </div>
+              </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h6>
+                    Is it necessary to create an account to use the URL
+                    shortening service?
+                  </h6>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <h6>Are the shortened links permanent? Will they expire?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <h6>
+                    Are there any limitations on the number of URLs I can
+                    shorten?
+                  </h6>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 5 -->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <h6>
+                    Can I customize the shortened URLs to reflect my brand or
+                    content?
+                  </h6>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 6-->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  <h6>Can I track the performance of my shortened URLs?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 7-->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  <h6>
+                    How secure is the URL shortening service? Are the shortened
+                    links protected against spam or malicious activity?
+                  </h6>
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSeven"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 8-->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  <h6>What is a QR code and what can it do?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEight"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+            <!-- Question 9-->
+            <div class="accordion-item scroll-animation">
+              <h2 class="accordion-header" id="headingNine">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="false"
+                  aria-controls="collapseNine"
+                >
+                  <h6>
+                    Is there an API available for integrating the URL shortening
+                    service into my own applications or websites?
+                  </h6>
+                </button>
+              </h2>
+              <div
+                id="collapseNine"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingNine"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  <!-- Your answer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Get Started -->
+    <div class="get-started scroll-animation">
+      <div class="container">
+        <img
+          src="images/get-started-vector-1.png"
+          class="get-started-vector scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/get-started-vector-2.png"
+          class="get-started-vector scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/get-started-vector-3.png"
+          class="get-started-vector-3 scroll-animation scroll-animation-left"
+        />
+        <h2 class="scroll-animation">Revolutionizing Link Optimization</h2>
+        <img
+          src="images/get-started-vector-4.png"
+          class="get-started-vector-4 scroll-animation scroll-animation-right"
+        />
+        <img
+          src="images/get-started-vector-5.png"
+          class="get-started-vector-4 scroll-animation scroll-animation-right"
+        />
+        <img
+          src="images/get-started-vector-6.png"
+          class="get-started-vector-4 scroll-animation scroll-animation-right"
+        />
+      </div>
+      <div class="get-started-btn scroll-animation myButton" href="">
+        Get Started
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="scroll-animation">
+      <div class="container">
+        <img
+          src="images/footer-vector-1.png"
+          class="footer-vector scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/footer-vector-2.png"
+          class="footer-vector scroll-animation scroll-animation-left"
+        />
+        <img
+          src="images/footer-vector-3.png"
+          class="footer-vector scroll-animation scroll-animation-left"
+        />
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+            <img
+              src="images/footer-icon.png"
+              alt="Logo"
+              class="scroll-animation"
+            />
+            <img
+              src="images/footer-line.png"
+              alt="Logo"
+              class="scroll-animation"
+            />
+            <img
+              src="images/SCISSOR-black.png"
+              alt="Logo"
+              class="scroll-animation"
+            />
+            <div class="d-flex gap-4 mt-4">
+              <ion-icon
+                name="logo-twitter"
+                class="scroll-animation scroll-animation-left"
+              ></ion-icon>
+              <ion-icon
+                name="logo-instagram"
+                class="scroll-animation"
+              ></ion-icon>
+              <ion-icon
+                name="logo-linkedin"
+                class="scroll-animation"
+              ></ion-icon>
+              <ion-icon
+                name="logo-facebook"
+                class="scroll-animation"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <div class="col-sm-2 scroll-animation">
+            <h5 class="">Why Scissor ?</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">Scissor 101</li>
+              <li class="scroll-animation">Integrations & API Pricing</li>
+            </ul>
+          </div>
+          <div class="col-sm-2 scroll-animation">
+            <h5>Solutions</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">Social Media</li>
+              <li class="scroll-animation">Digital Marketing</li>
+              <li class="scroll-animation">Customer Service</li>
+              <li class="scroll-animation">For Developers</li>
+            </ul>
+          </div>
+          <div class="col-sm-2 scroll-animation">
+            <h5>Products</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation"></li>
+              <li class="scroll-animation">Link Management</li>
+              <li class="scroll-animation">QR Codes</li>
+              <li class="scroll-animation">Link Management</li>
+              <li class="scroll-animation">Link-in-bio</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-2 scroll-animation">
+            <h5>Company</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">About Scissor</li>
+              <li class="scroll-animation">Careers</li>
+              <li class="scroll-animation">Partners</li>
+              <li class="scroll-animation">Press</li>
+              <li class="scroll-animation">Contact</li>
+              <li class="scroll-animation">Reviews</li>
+            </ul>
+          </div>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2 scroll-animation">
+            <h5>Resources</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">Blog</li>
+              <li class="scroll-animation">Resource Library</li>
+              <li class="scroll-animation">Developers</li>
+              <li class="scroll-animation">App Connectors</li>
+              <li class="scroll-animation">Support</li>
+              <li class="scroll-animation">Trust Center</li>
+              <li class="scroll-animation">Browser Extension</li>
+              <li class="scroll-animation">Mobile App</li>
+            </ul>
+          </div>
+          <div class="col-sm-2 scroll-animation">
+            <h5>Features</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">Branded Links</li>
+              <li class="scroll-animation">Mobile Links</li>
+              <li class="scroll-animation">Campaign Management & Analytics</li>
+              <li class="scroll-animation">QR Code generation</li>
+            </ul>
+          </div>
+          <div class="col-sm-2 scroll-animation">
+            <h5>Legal</h5>
+            <ul class="no-bullet">
+              <li class="scroll-animation">Privacy Policy</li>
+              <li class="scroll-animation">Cookie Policy</li>
+              <li class="scroll-animation">Terms of Service</li>
+              <li class="scroll-animation">Acceptable Use Policy</li>
+              <li class="scroll-animation">Code of Conduct</li>
+            </ul>
+          </div>
+        </div>
+        <img
+          src="images/footer-vector-4.png"
+          class="footer-vector-right scroll-animation scroll-animation-right"
+        />
+        <img
+          src="images/footer-vector-5.png"
+          class="footer-vector-right scroll-animation scroll-animation-right"
+        />
+        <img
+          src="images/footer-vector-6.png"
+          class="footer-vector-right scroll-animation scroll-animation-right"
+        />
+        <p class="text-end">Term of Service | Security | Scissor 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
